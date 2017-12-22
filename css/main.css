@@ -1427,6 +1427,11 @@ ul
 	width:125px;
 }
 
+.contact-us-sec .form-control.btn:focus
+{
+	outline:none;
+}
+
 .contact-us-sec .form-control.btn:hover
 {
 	background-color:#46B8DA;
