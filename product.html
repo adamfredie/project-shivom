@@ -89,14 +89,14 @@ drift.load('p9mfnzvi9zvf');
 					<li><a href="about.html">ABOUT</a></li>
 					<li><a href="product.html">Product</a></li>
 					<li class="dropdown">
-					  <a href="#" class="dropdown-toggle" data-toggle="dropdown">Download <b class="caret"></b></a>
+					  <a href="#" class="dropdown-toggle" data-toggle="dropdown">Whitepaper <b class="caret"></b></a>
 					  <ul class="dropdown-menu mine-drop">
-						<li><a href="#">Whitepaper</a></li>
-						<li><a href="#">Executive Summary</a></li>
+						<li><a href="files/Shivom-Executive-Summary.pdf">Executive Summary</a></li>
+						<li><a href="files/Shivom-Pitch-Deck.pdf">Pitch Deck</a></li>
 					  </ul>
 					</li>
 					<li><a href="team-&-partner.html">TEAM & PARTNERS</a></li>
-					<li><a href="news-&-events.html">News And Events</a></li>
+					<li><a href="news-&-events.html">News & Events</a></li>
 					<li><a href="contact.html">CONTACT</a></li>
 
 				</ul>
@@ -113,7 +113,7 @@ drift.load('p9mfnzvi9zvf');
 				</div>
 			</div>
 			<div class="row">
-				<div class="col-md-10 col-md-offset-1">
+				<div class="col-md-8 col-md-offset-2">
 					<div class="services-head text-center">
 						<p>Our massive precision medicine ecosystem will provide space for other healthcare and wellness providers such as clinics, genomic counselors, pharmaceuticals, research organizations, governments, patient-support groups, and insurance companies to add their apps and services.</p>
 
@@ -128,7 +128,7 @@ drift.load('p9mfnzvi9zvf');
 			</div>
 
 			<div class="row">
-				<div class="col-md-10 col-md-offset-1">
+				<div class="col-md-8 col-md-offset-2">
 					<div class="services-head text-center">
 						<p>The platform works on principles of collaboration, openness, and integrity allowing patients to own their genomic data, have full access to it, and monetize it on the blockchain. To ensure widespread adoption, we offer a solution where everybody will be able to get their genome sequenced and stored. Each person’s genome can provide access to the latest health advances for many years to come.</p>
 
@@ -222,10 +222,10 @@ drift.load('p9mfnzvi9zvf');
 			</div>
 				<div class="row">
 					<div class="col-md-6 text-center trial-text border-right">
-						<h2 style="color: #46b8da;"> Global Citizen </h2>
+						<h2 style="color: #29d9f7;"> Global Citizen </h2>
 						<p> Get your genome squenced or upload <br> your DNA </p>
 
-						<div class="circle"> <img src="images/Global-Citizen.jpg" width="50%" class="img-responsive img-circle " alt=""> </div>
+						<div class="circle team-image"> <img src="images/Global-Citizen.jpg" width="50%" class="img-responsive img-circle " alt=""> </div>
 
 						<p>
 							Gain insight about your health or ancestry, improve your wellbeing, foster health research for the public good and even earn money for doing so. If you already got your DNA data from other services such as 23andMe, Ancestry, Genos or Sure Genomics, you can easily upload it to the Shivom database. Alternatively, your can order a DNA Kit for yourself or your family. It’s easy!
@@ -236,10 +236,10 @@ drift.load('p9mfnzvi9zvf');
 					</div>
 
 					<div class="col-md-6 trial-text text-center">
-						<h2 style="color: #46b8da;"> Pharma R&amp;D </h2>
+						<h2 style="color: #29d9f7;"> Pharma R&amp;D </h2>
 						<p> Enable precision medicine by analysing global <br> genome & health data </p>
 
-						<div class="circle"> <img src="images/Pharma.jpg" width="50%" class="img-responsive img-circle " alt=""> </div>
+						<div class="circle team-image"> <img src="images/Pharma.jpg" width="50%" class="img-responsive img-circle " alt=""> </div>
 
 						<p>
 							Enhance your research by accessing and helping to build what will be the largest genome database on the planet. Together with the partners from the global healthcare community and governments you can sponsor public sequencing projects or the sequencing of specific patient groups. Sponsoring of individuals that are underrepresented in genomic database (e.g. from remote rural areas) or who suffer from rare diseases will enhance your R&amp;D processes and public health
@@ -267,10 +267,12 @@ drift.load('p9mfnzvi9zvf');
 							 Telegram </a>
 						</li>
 
-						<li data-aos-duration="1000"  data-aos="fade-up" data-aos-delay="100"> <a href="" target="_new" class="card" >
-						<img src="images/bitcoin-talk.svg"  class="img-responsive" alt=""> <br>
-						<img src="images/bitcoin-talk1.svg" class="img-top" alt="Card Front">
-							 BitcoinTalk  </a> </li>
+						<li data-aos-duration="1000"  data-aos="fade-up" data-aos-delay="100"> <a href="https://www.reddit.com/r/Shivom/" class="card" target="_new">
+						<img src="images/reddit.svg" class="img-responsive" />
+						 <img src="images/reddit1.svg" class="img-top" alt="Card Front">
+							<br>
+							 Reddit </a>
+						</li>
 
 						<li data-aos-duration="1000"  data-aos="fade-up" data-aos-delay="300"> <a href="https://discord.me/shivom"  class="card"  target="_new">
 						<img src="images/discord.svg" class="img-responsive center-block" />
@@ -348,11 +350,17 @@ drift.load('p9mfnzvi9zvf');
 
 	<script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
 	<script src="js/bootstrap.min.js"></script>
-
-
+	
 	<script>
-
+		$(document).ready(function () {
+			var url = window.location;
+			$('ul.nav a[href="'+ url +'"]').parent().addClass('active');
+			$('ul.nav a').filter(function() {
+				 return this.href == url;
+			}).parent().addClass('active');
+		});
 	</script>
+
 	<!-- SLIDER REVOLUTION 5.x SCRIPTS  -->
 	<script type="text/javascript" src="js/jquery.themepunch.tools.min.js"></script>
 	<script type="text/javascript" src="js/jquery.themepunch.revolution.min.js"></script>
@@ -369,6 +377,8 @@ drift.load('p9mfnzvi9zvf');
  <script>
     AOS.init();
   </script>
+
+  
 	<script>
 
 					$(document).ready(function(){

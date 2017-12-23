@@ -89,14 +89,14 @@ drift.load('p9mfnzvi9zvf');
 					<li><a href="about.html">ABOUT</a></li>
 					<li><a href="product.html">Product</a></li>
 					<li class="dropdown">
-					  <a href="#" class="dropdown-toggle" data-toggle="dropdown">Download <b class="caret"></b></a>
+					   <a href="#" class="dropdown-toggle" data-toggle="dropdown">Whitepaper <b class="caret"></b></a>
 					  <ul class="dropdown-menu mine-drop">
-						<li><a href="#">Whitepaper</a></li>
-						<li><a href="#">Executive Summary</a></li>
+						<li><a href="files/Shivom-Executive-Summary.pdf">Executive Summary</a></li>
+						<li><a href="files/Shivom-Pitch-Deck.pdf">Pitch Deck</a></li>
 					  </ul>
 					</li>
 					<li><a href="team-&-partner.html">TEAM & PARTNERS</a></li>
-					<li><a href="news-&-events.html">News And Events</a></li>
+					<li><a href="news-&-events.html">News & Events</a></li>
 					<li><a href="contact.html">CONTACT</a></li>
 
 				</ul>
@@ -104,90 +104,113 @@ drift.load('p9mfnzvi9zvf');
 		</div>
 	</nav>
 	<!-- end navigation -->
-
 	<section id="services" class="padding-sec about-services leader-pad">
         <div class="container">
 			<div class="row">
-				<div class="col-md-12 text-c">
-
-				<ul id="portfolio-filter">
-					<li><a href="#all" title="">All</a></li>
-					<li><a href="#articles" title="" rel="design">Articles</a></li>
-					<li><a href="#videos" title="" rel="partner">Videos</a></li>
-					<li><a href="#press-release" title="" rel="political">Press Release</a></li>
-				</ul>
-
-				<ul id="portfolio-list">
-						<li style="display: block;" class="nonprofit videos cms jquery">
-							<div class="blog-sec">
-								<img src="images/1.jpg" alt="" class="img-responsive" />
-								<p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.  <p>
-								<a href="" target="_new"> Read More <i class="icofont icofont-long-arrow-right"></i> </a>
+				<div class="col-md-8 text-c">
+					<div id="portfolio">
+						<div id="portfolio-sort">
+							<ul>
+								<li class="active"> <a href="#" id="all">ALL</a> </li>
+								<li> <a href="#" data-cat="article">Articles</a> </li>
+								<li> <a href="#" data-cat="videos">Videos</a> </li>
+								<li> <a href="#" data-cat="press-release">Press Release</a> </li>
+							</ul>
+						</div>
+						<div id="portfolio-content">
+							<div class="portfolio-item active" data-cat="article">
+								<div class="blog-sec">
+									<img src="images/article.jpeg" alt="" class="img-responsive" />
+									<h3>  The Shivom Vision — Transforming the Future of Healthcare </h3>
+									<p> <b> Body</b>: We’re thrilled to announce the launch of the Project Shivom.  <p>
+									<p> Over the last few years genomics and blockchain have reached the potential to significantly improve global healthcare. Genomic medicine has huge implications for the understanding and treatment of as many as 7,000 rare diseases, as well as cancers, complex disease such as cardiovascular...<p>
+									<a href="https://medium.com/@projectshivom/the-shivom-vision-transforming-the-future-of-healthcare-42c4095fbde9" target="_new"> Read More <i class="icofont icofont-long-arrow-right"></i> </a>
+								</div>
 							</div>
-						</li>
-
-						<li class="business design">
-							<div class="blog-sec">
-								<img src="images/1.jpg" alt="" class="img-responsive" />
-								<p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.  <p>
-								<a href="" target="_new"> Read More <i class="icofont icofont-long-arrow-right"></i> </a>
+							<div class="portfolio-item" data-cat="videos">
+								<!-- <div class="blog-sec">
+									<img src="images/1.jpg" alt="" class="img-responsive" />
+									<p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text...Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text...  <p>
+									<a href="" target="_new"> Read More <i class="icofont icofont-long-arrow-right"></i> </a>
+								</div> -->
 							</div>
-						</li>
-
-						<li class="nonprofit articles design cms jquery video">
-							<div class="blog-sec">
-								<img src="images/1.jpg" alt="" class="img-responsive" />
-								<p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.  <p>
-								<a href="" target="_new"> Read More <i class="icofont icofont-long-arrow-right"></i> </a>
+						
+							<div class="portfolio-item" data-cat="article">
+								<div class="blog-sec">
+									<img src="images/article1.jpeg" alt="" class="img-responsive" />
+									<h3>  Genomic Data Hub Shivom Voted in as ICOS Project </h3>
+									<p>  <b> Body</b>: Shivom has been overwhelmingly voted for as a new project to receive ICOBox tools through the company’s ICOS platform <p>
+									<p>  Shivom has been overwhelmingly voted for as a new project to receive ICOBox tools through the company’s ICOS platform. This platform allows the ICOS token holder community to vote for what it considers to be the most...  <p>
+									<a href="https://medium.com/@projectshivom/genomic-data-hub-shivom-voted-in-as-icos-project-ee8ce540f362" target="_new"> Read More <i class="icofont icofont-long-arrow-right"></i> </a>
+								</div>
 							</div>
-						</li>
-
-						<li class="press-release design cms">
-							<div class="blog-sec">
-								<img src="images/1.jpg" alt="" class="img-responsive" />
-								<p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.  <p>
-								<a href="" target="_new"> Read More <i class="icofont icofont-long-arrow-right"></i> </a>
+							<div class="portfolio-item" data-cat="press-release">
+								<!-- <div class="blog-sec">
+									<img src="images/1.jpg" alt="" class="img-responsive" />
+									<p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text...Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text...  <p>
+									<a href="" target="_new"> Read More <i class="icofont icofont-long-arrow-right"></i> </a>
+								</div> -->
 							</div>
-						</li>
-
-						<li class="articles videos design cms jquery">
-							<div class="blog-sec">
-								<img src="images/1.jpg" alt="" class="img-responsive" />
-								<p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.  <p>
-								<a href="" target="_new"> Read More <i class="icofont icofont-long-arrow-right"></i> </a>
+							<div class="portfolio-item" data-cat="article">
+								<div class="blog-sec">
+									<img src="images/article2.jpeg" alt="" class="img-responsive" />
+									<h3> Genomic Data Hub Shivom Voted in as ICOS Project </h3>
+									<p>  <b> Body</b>:  This platform allows the ICOS token holder community to vote for what it considers to be the most promising ideas, and Shivom has received the most votes since the platform launched earlier this year. ICOBox then provides its readymade ICO solutions to the winners without an upfront payment, in exchange for their future tokens.  <p>
+									
+									<a href="http://www.toinnov.com/news/genomic-data-hub-shivom-v/" target="_new"> Read More <i class="icofont icofont-long-arrow-right"></i> </a>
+								</div>
 							</div>
-						</li>
-
-
-						<li class="press-release design cms video">
-							<div class="blog-sec">
-								<img src="images/1.jpg" alt="" class="img-responsive" />
-								<p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.  <p>
-								<a href="" target="_new"> Read More <i class="icofont icofont-long-arrow-right"></i> </a>
+							<div class="portfolio-item" data-cat="videos">
+								<!-- <div class="blog-sec">
+									<img src="images/1.jpg" alt="" class="img-responsive" />
+									<p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text...Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text...  <p>
+									<a href="" target="_new"> Read More <i class="icofont icofont-long-arrow-right"></i> </a>
+								</div> -->
 							</div>
-						</li>
-
-
-						<li style="display: block;" class="business videos cms programming jquery video">
-							<div class="blog-sec">
-								<img src="images/1.jpg" alt="" class="img-responsive" />
-								<p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.  <p>
-								<a href="" target="_new"> Read More <i class="icofont icofont-long-arrow-right"></i> </a>
+							
+							<div class="portfolio-item" data-cat="article">
+								<div class="blog-sec">
+									<img src="images/article3.jpeg" alt="" class="img-responsive" />
+									<h3> Seus genes na Blockchain? A Shivom é o futuro hoje! </h3>
+									<p>  <b> Body</b>: Hoje há uma prática comum na indústria de laboratórios de exames genéticos, a de vender suas informações sem o consentimento do paciente. Ainda nos problemas que existem nesse mercado, a demanda por genomas humanos é bem alta e as databases bem inclompletas. Como ter a oportunidade de contribuir...  <p>
+								
+									<a href="https://www.criptomoedasfacil.com/seus-genes-na-blockchain-shivom-e-o-futuro-hoje/" target="_new"> Read More <i class="icofont icofont-long-arrow-right"></i> </a>
+								</div>
 							</div>
-						</li>
-
-
-						<li style="overflow: hidden; clear: both; height: 0px; position: relative; float: none; display: block;"></li>
-					</ul>
-
-
+							<div class="portfolio-item" data-cat="press-release">
+								<!-- <div class="blog-sec">
+									<img src="images/1.jpg" alt="" class="img-responsive" />
+									<p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text...Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text...  <p>
+									<a href="" target="_new"> Read More <i class="icofont icofont-long-arrow-right"></i> </a>
+								</div> -->
+							</div>
+							<div class="portfolio-item" data-cat="videos">
+								<!-- <div class="blog-sec">
+									<img src="images/1.jpg" alt="" class="img-responsive" />
+									<p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text...Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text...  <p>
+									<a href="" target="_new"> Read More <i class="icofont icofont-long-arrow-right"></i> </a>
+								</div> -->
+							</div>
+							<div class="portfolio-item" data-cat="article">
+								<div class="blog-sec">
+									<img src="images/article4.jpeg" alt="" class="img-responsive" />
+									<h3> Genomický datový hub Shivom byl vybrán hlasováním v projektu ICOS </h3>
+									<p>  <b> Body</b>: Společnost Shivom byla zvolena za nový projekt, který získá podporu a nástroje ICOBox prostřednictvím jejich platformy ICOS. Tato platforma umožňuje komunitě držitelů tokenů ICOS hlasovat a vybrat nejslibnější projekty.<p>
+									
+									<a href="https://arbolet.net/clanek/3660-genomicky-datovy-hub-shivom-byl-vybran-hlasovanim-v-projektu-icos" target="_new"> Read More <i class="icofont icofont-long-arrow-right"></i> </a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				
+				<div class="col-md-4">
+					<div class="tw-frame">
+					<a class="twitter-timeline" data-height="600" data-theme="dark" data-link-color="#29d9f7" href="https://twitter.com/ProjectShivom?ref_src=twsrc%5Etfw">Tweets by Project Shivom</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> </div>
 				</div>
 			</div>
-
-
 		</div>
-    </section><!--/#about-->
-
+	</section>
 
 	<section id="social" class="padding-sec">
         <div class="container">
@@ -203,10 +226,12 @@ drift.load('p9mfnzvi9zvf');
 							 Telegram </a>
 						</li>
 
-						<li data-aos-duration="1000"  data-aos="fade-up" data-aos-delay="100"> <a href="" target="_new" class="card" >
-						<img src="images/bitcoin-talk.svg"  class="img-responsive" alt=""> <br>
-						<img src="images/bitcoin-talk1.svg" class="img-top" alt="Card Front">
-							 BitcoinTalk  </a> </li>
+						<li data-aos-duration="1000"  data-aos="fade-up" data-aos-delay="100"> <a href="https://www.reddit.com/r/Shivom/" class="card" target="_new">
+						<img src="images/reddit.svg" class="img-responsive" />
+						 <img src="images/reddit1.svg" class="img-top" alt="Card Front">
+							<br>
+							 Reddit </a>
+						</li>
 
 						<li data-aos-duration="1000"  data-aos="fade-up" data-aos-delay="300"> <a href="https://discord.me/shivom"  class="card"  target="_new">
 						<img src="images/discord.svg" class="img-responsive center-block" />
@@ -284,9 +309,55 @@ drift.load('p9mfnzvi9zvf');
 
 	<script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
 	<script src="js/bootstrap.min.js"></script>
+	
+	<script>
+		 $(document).ready(function () {
+			var url = window.location;
+			$('ul.nav a[href="'+ url +'"]').parent().addClass('active');
+			$('ul.nav a').filter(function() {
+				 return this.href == url;
+			}).parent().addClass('active');
+		});
+		
+		$(document).ready(function(){
+  $('#portfolio-sort ul li a').click(function(){
+    $('#portfolio-sort li a').removeClass("active");
+    $(this).addClass("active");
+});
+});
+	</script>
+	<script>
+		var Portfolio = {
+    sort: function(items) {
+        items.show();
+        $('#portfolio-content').find('div.portfolio-item').not(items).fadeOut(500);
+    },
+    showAll: function(items) {
+        items.fadeIn(500);
+    },
+    doSort: function() {
+        $('a', '#portfolio-sort').on('click', function() {
 
-	<script src="js/filterable.pack.js"></script>
+            var $a = $(this);
+            if (!$a.is('#all')) {
 
+                var items = $('div[data-cat=' + $a.data('cat') + ']', '#portfolio-content');
+
+                Portfolio.sort(items);
+
+            } else {
+
+                Portfolio.showAll($('div.portfolio-item', '#portfolio-content'));
+
+
+            }
+
+        });
+    }
+};
+
+Portfolio.doSort();
+	</script>
 	<!-- SLIDER REVOLUTION 5.x SCRIPTS  -->
 	<script type="text/javascript" src="js/jquery.themepunch.tools.min.js"></script>
 	<script type="text/javascript" src="js/jquery.themepunch.revolution.min.js"></script>
@@ -300,8 +371,6 @@ drift.load('p9mfnzvi9zvf');
  <script>
     AOS.init();
   </script>
-
-
 
 	<script type="text/javascript">
 		var tpj=jQuery;

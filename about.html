@@ -90,14 +90,14 @@ drift.load('p9mfnzvi9zvf');
 					<li><a href="about.html">ABOUT</a></li>
 					<li><a href="product.html">Product</a></li>
 					<li class="dropdown">
-					  <a href="#" class="dropdown-toggle" data-toggle="dropdown">Download <b class="caret"></b></a>
+					  <a href="#" class="dropdown-toggle" data-toggle="dropdown">Whitepaper <b class="caret"></b></a>
 					  <ul class="dropdown-menu mine-drop">
-						<li><a href="#">Whitepaper</a></li>
-						<li><a href="#">Executive Summary</a></li>
+						<li><a href="files/Shivom-Executive-Summary.pdf">Executive Summary</a></li>
+						<li><a href="files/Shivom-Pitch-Deck.pdf">Pitch Deck</a></li>
 					  </ul>
 					</li>
 					<li><a href="team-&-partner.html">TEAM & PARTNERS</a></li>
-					<li><a href="news-&-events.html">News And Events</a></li>
+					<li><a href="news-&-events.html">News & Events</a></li>
 					<li><a href="contact.html">CONTACT</a></li>
 
 				</ul>
@@ -248,10 +248,12 @@ drift.load('p9mfnzvi9zvf');
 							 Telegram </a>
 						</li>
 
-						<li data-aos-duration="1000"  data-aos="fade-up" data-aos-delay="100"> <a href="" target="_new" class="card" >
-						<img src="images/bitcoin-talk.svg"  class="img-responsive" alt=""> <br>
-						<img src="images/bitcoin-talk1.svg" class="img-top" alt="Card Front">
-							 BitcoinTalk  </a> </li>
+						<li data-aos-duration="1000"  data-aos="fade-up" data-aos-delay="100"> <a href="https://www.reddit.com/r/Shivom/" class="card" target="_new">
+						<img src="images/reddit.svg" class="img-responsive" />
+						 <img src="images/reddit1.svg" class="img-top" alt="Card Front">
+							<br>
+							 Reddit </a>
+						</li>
 
 						<li data-aos-duration="1000"  data-aos="fade-up" data-aos-delay="300"> <a href="https://discord.me/shivom"  class="card"  target="_new">
 						<img src="images/discord.svg" class="img-responsive center-block" />
@@ -330,14 +332,20 @@ drift.load('p9mfnzvi9zvf');
 	<script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
 	<script src="js/bootstrap.min.js"></script>
 
-
 	<script>
-
+		$(document).ready(function () {
+			var url = window.location;
+			$('ul.nav a[href="'+ url +'"]').parent().addClass('active');
+			$('ul.nav a').filter(function() {
+				 return this.href == url;
+			}).parent().addClass('active');
+		});
 	</script>
-
+	
 	<!-- SLIDER REVOLUTION 5.x SCRIPTS  -->
 	<script type="text/javascript" src="js/jquery.themepunch.tools.min.js"></script>
 	<script type="text/javascript" src="js/jquery.themepunch.revolution.min.js"></script>
+
 
 	<script type="text/javascript" src="js/revolution.extension.carousel.min.js"></script>
 	<script type="text/javascript" src="js/revolution.extension.navigation.min.js"></script>
@@ -349,6 +357,7 @@ drift.load('p9mfnzvi9zvf');
  <script>
     AOS.init();
   </script>
+
 	<script>
 
 
